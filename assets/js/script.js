@@ -95,7 +95,7 @@ function showSkills(skills) {
     skills.forEach(skill => {
         skillHTML += `
         <div class="bar">
-              <div class="info">
+              <div class="info skills-card">
                 <img class="skills-card-img" src=${skill.icon} alt="skill" />
                 <span class="skills-card-name">${skill.name}</span>
               </div>
