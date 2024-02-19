@@ -26,13 +26,14 @@
         <a href="/" class="logo"><i class="fab fa-node-js"></i> Arsalan</a>
 
         <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
+        <nav  id="nav-menu" class="navbar">
             <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#work">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="active nav-link home" href="#home">Home</a></li>
+            <li><a class="nav-link about" href="#about">About</a></li>
+            <li><a class="nav-link skills" href="#skills">Skills</a></li>
+            <li><a class="nav-link projects" href="#work">Projects</a></li>
+            <li><a class="nav-link contact" href="#contact">Contact</a></li>
+            <li><button id="resume-button-1"><a id="resume-link-1" href="./assets/Arsalan-Akhtar-Resume.pdf" target="_blank" download="Arsalan-Akhtar-Resume">Resume</a></button></li>
             </ul>
         </nav>
 </header>
@@ -70,13 +71,13 @@
     <div class="row">
 
     <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/Arsalan Profile.jpg" alt="">
+        <img draggable="false" class="tilt home-img" src="./assets/images/Arsalan Profile.jpg" alt="">
     </div>
     <div class="content">
-        <h3>I'm Arsalan Akhtar</h3>
+        <h3 id="user-detail-name">I'm Arsalan Akhtar</h3>
         <span class="tag">Full Stack Developer</span>
         
-        <p>👋 Hello, I'm Arsalan Akhtar,  Full Stack Developer based in the vibrant city of Ranchi, Jharkhand, India. I'm deeply passionate about refining my coding skills and creating impactful applications and websites.
+        <p id="user-detail-intro">👋 Hello, I'm Arsalan Akhtar,  Full Stack Developer based in the vibrant city of Ranchi, Jharkhand, India. I'm deeply passionate about refining my coding skills and creating impactful applications and websites.
 <br>
 <br>
           🚀 As a Full-Stack developer, I specialize in the MERN Stack (MongoDB, Express.js, React, Node.js). My journey involves crafting seamless and dynamic WebApps and Websites that not only meet but exceed expectations.
@@ -97,11 +98,11 @@
             </div>
         </div>
         
-        <div class="resumebtn">
-            <a href="https://drive.google.com/file/d/14KmqVk26bwhhCT9571B-Tk9h5IXD6j4z/view?usp=drive_link" target="_blank" class="btn"><span>Resume</span>
+        <button id="resume-button-2" class="resumebtn">
+            <a id="resume-link-2" href="./assets/Arsalan-Akhtar-Resume.pdf" download="Arsalan-Akhtar-Resume" target="_blank" class="btn"><span>Resume</span>
                 <i class="fas fa-chevron-right"></i>
             </a>
-        </div>
+        </button>
 
     </div>
     </div>
@@ -225,13 +226,13 @@
 
       <div class="box">
           <h3>contact info</h3>
-          <p> <i class="fas fa-phone"></i>+91 840-905-9493</p>
-          <p> <i class="fas fa-envelope"></i>arsalanakhtar124@gmail.com</p>
+          <p id="contact-phone"> <i class="fas fa-phone"></i>+91 840-905-9493</p>
+          <p id="contact-email"> <i class="fas fa-envelope"></i>arsalanakhtar124@gmail.com</p>
           <p> <i class="fas fa-map-marked-alt"></i>Ranchi, Jharkhand, India</p>
           <div class="share">
 
-              <a href="https://www.linkedin.com/in/arsalan-akhtar-20ab581ba/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-              <a href="https://github.com/aakhtar10" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a id="contact-linkedin" href="https://www.linkedin.com/in/arsalan-akhtar-20ab581ba/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a id="contact-github" href="https://github.com/aakhtar10" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
               <a href="arsalanakhtar124@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
           </div>
       </div>
