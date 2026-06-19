@@ -1,4 +1,4 @@
-import {  GitBranch, Link, Mail } from "lucide-react";
+import {  Mail } from "lucide-react";
 import { EMAIL, NAV, SOCIALS } from "@/config/portfolio";
 import Image from "next/image";
 
